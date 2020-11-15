@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+    line-height: 1.6em;
+    
+
+}
+
+
+.navbar-light .navbar-brand {
+    color:darkblue;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: darkblue;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+  .carousel-inner img{
+    height: 700px;
+  }
+
+  section{
+    margin-top: 150px;
+  }
+  #about_us h1{
+    font-size: 38px;
+    text-align: center;
+  }
+
+  #about_us h2{
+    color: black;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: left;
+  }
+  
+  #about_us h3{
+    color: #777;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    line-height: 26px;
+    font-style: italic;
+    margin-top: 10px;
+    
+
+  }
+
+  #about_us .about_para{
+    line-height: 26px;
+    text-align: left;
+  }
+  .about_img{
+    height: 288px;
+    width: 445px;
+
+  }
+
+  #image1{
+  background-image: url(/img/parallax/1.jpg);
+  background-repeat: no-repeat, repeat;
+  height: 400px;
+  background-attachment: fixed;
+  width: 100%;
+  
+
+  }
+
+  #image1 h2{
+    margin-top: 125px;
+    color: white;
+  }
+  #image1 h4{
+    color: white;
+    line-height: 45px;
+    font-size: 22px;
+  }
+
+  #services img{
+    height: 250px;
+    width: 150px;
+  }
+  #services h2, .services_p{
+    text-align: left;
+  }
+  #work{
+    background-color:#f8f8f8;
+  }
+
+  #work img{
+    margin: 2.5px;
+  }
+
+  #image2{
+  
+    background-image: url(/img/parallax/2.jpg);
+    background-repeat: no-repeat , repeat;
+    height: 400px;
+    margin-top: -10px;
+    width: 100%;
+    background-attachment: fixed;
+  }
+
+  #image2 img{
+text-align: center;
+margin-top: 150px;
+
+  }
+  #out_team h1{
+    font-weight: 300;
+    font-size: 25px;
+  }
+
+  #our_team img{
+    align-items: center;
+  }
+  #our_team h2{
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+
+  #contact{
+    background-color:#f8f8f8;
+  }
+footer{
+  background-color: #00c1c1;
+  color:white;
+  height: 150px;
+
+}
+
+footer h5{
+  margin-top: 50px;
+  font-weight: 200;
+}
+  
